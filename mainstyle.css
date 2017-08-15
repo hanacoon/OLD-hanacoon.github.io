@@ -36,7 +36,7 @@ h2 {
 
 
 h3 {
-  font-family: Sanchez-Regular !important;
+  font-family: 'Rokkitt', serif !important;
   font-size: 25pt !important;
   color:#F2F2F2 !important;
   letter-spacing : 1.9px !important;
@@ -78,7 +78,7 @@ h4 {
 }
 
 p {
-  font-family: Sanchez-Regular;
+  font-family: 'Rokkitt', serif;
   font-size: 10pt;
   color: #E8E8E8;
   letter-spacing : 1px;
@@ -87,7 +87,7 @@ p {
 }
 
 .p2 {
-  font-family: Sanchez-Regular;
+font-family: 'Rokkitt', serif;
   font-size: 10pt;
   color: #828181;
   letter-spacing : 1px;
@@ -225,6 +225,13 @@ a:focus {
 
 /*PROJECTS*/
 
+#projects {
+  background-color: #89ADA7;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+
 #resume {
   background: #E8E8E8;
   text-align: center;
@@ -239,6 +246,7 @@ a:focus {
 .years, .degree{
   color: #5F5E5D;
   text-align: center;
+  font-style: bold;
 }
 
 .resumeitem {
