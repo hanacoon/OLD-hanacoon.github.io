@@ -272,3 +272,7 @@ a:focus {
   padding: 8px;
   padding-bottom: 30px;
 }
+
+.name {
+  color: #9BD2CA;
+}
