@@ -1,7 +1,7 @@
 /*START WEBSITE*/
 
 body {
-  font-family: Futura, times, serif;
+font-family: 'Rokkitt', serif;
   background-color: #E87162;
 }
 
@@ -53,6 +53,17 @@ h4 {
   padding-top: 30px;
 }
 
+h5 {
+  font-family: Futura;
+  font-size: 9pt;
+  color: #E8E8E8;
+  letter-spacing : 1px;
+  text-align: center;
+  margin: auto;
+
+}
+
+
 @media(min-width:768px){
   h3 {
     padding-top: 100px !important;
@@ -79,7 +90,7 @@ h4 {
 
 p {
   font-family: 'Rokkitt', serif;
-  font-size: 10pt;
+  font-size: 12pt;
   color: #E8E8E8;
   letter-spacing : 1px;
   text-align: center;
@@ -87,7 +98,7 @@ p {
 }
 
 .p2 {
-font-family: 'Rokkitt', serif;
+  font-family: 'Rokkitt', serif;
   font-size: 10pt;
   color: #828181;
   letter-spacing : 1px;
@@ -231,6 +242,11 @@ a:focus {
   padding-top: 30px;
 }
 
+.project {
+  outline: solid;
+  outline-color: #E8E8E8;
+}
+
 
 #resume {
   background: #E8E8E8;
@@ -241,12 +257,12 @@ a:focus {
 .school {
   color: #E87162;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .years, .degree{
-  color: #5F5E5D;
+  color: #7F7F7F;
   text-align: center;
-  font-style: bold;
 }
 
 .resumeitem {
