@@ -26,14 +26,14 @@ h1 {
 
 h2 {
   font-family: Futura !important;
-  font-size: 14pt !important;
+  font-size: 12pt !important;
   padding-bottom: 15px !important;
   padding-top: 30px !important;
-  color: #E87162 !important;
+  color: #5F5E5D !important;
   letter-spacing : 1.9px !important;
   text-align: center; !important;
 }
-
+  
 
 h3 {
   font-family: 'Rokkitt', serif !important;
@@ -63,6 +63,15 @@ h5 {
 
 }
 
+h6 {
+   font-family: Futura !important;
+  font-size: 15pt !important;
+  color: #5F5E5D !important;
+  letter-spacing : 1.9px !important;
+  text-align: center;
+  padding-top: 30px;
+}
+
 
 @media(min-width:768px){
   h3 {
@@ -89,7 +98,7 @@ h5 {
 }
 
 p {
-  font-family: 'Rokkitt', serif;
+  font-family: 'Rokkitt', serif, regular;
   font-size: 12pt;
   color: #E8E8E8;
   letter-spacing : 1px;
@@ -251,7 +260,14 @@ a:focus {
 #resume {
   background: #E8E8E8;
   text-align: center;
+  padding-bottom: 0px;
+}
+
+#skills {
+  background: #E8E8E8;
+  text-align: center;
   padding-bottom: 60px;
+  padding-top: 0px;
 }
 
 .school {
@@ -260,10 +276,18 @@ a:focus {
   padding-bottom: 10px;
 }
 
-.years, .degree{
+.skill {
+  color: #E87162;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.years, .degree, .listedskill{
   color: #7F7F7F;
   text-align: center;
 }
+
+
 
 .resumeitem {
   padding-bottom: 25px;
@@ -277,6 +301,12 @@ a:focus {
   .exp {
     text-align: left;
   }
+
+  #skills {
+  padding-bottom: 60px !important;
+  padding-top: 0px !important;
+}
+
   }
 
 #getintouch {
@@ -299,4 +329,19 @@ a:focus {
 
 .name {
   color: #9BD2CA;
+}
+
+#resumetitle {
+  border: solid;
+  padding: 0px;
+}
+
+.skillicon {
+  max-height: 75px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.skilltitle {
+  padding-bottom: 40px !important;
 }
